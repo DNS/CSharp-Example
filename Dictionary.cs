@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 // Create a new dictionary
@@ -25,5 +25,5 @@ if (personAges.ContainsKey("Bob")) {
 // Iterate over the dictionary
 foreach (var pair in personAges) {
 	System.Console.WriteLine($"Name: {pair.Key}, Age: {pair.Value}");
-}                                                
+}
 
