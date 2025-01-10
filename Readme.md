@@ -1,5 +1,5 @@
 # build all
-Build.ps1
+	Build.ps1
 
 # clean all
-Clean.ps1
+	Clean.ps1
