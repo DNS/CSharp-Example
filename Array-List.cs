@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 String[] a = { "jakarta", "manila", "bangkok" };
 for (int i = 0; i < a.Length; i++) {
