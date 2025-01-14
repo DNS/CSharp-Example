@@ -51,8 +51,9 @@ OracleCommand cmd1 = new OracleCommand("SELECT * FROM table2", con);
 cmd1.Connection.Open();
 OracleDataReader reader = cmd1.ExecuteReader();
 
-while (reader.Read()) {
-	Console.WriteLine(reader["nama"].ToString());
+while (reader.Read())
+{
+    Console.WriteLine(reader["nama"].ToString());
 }
 
 reader.Close();

@@ -1,6 +1,6 @@
 ﻿using System;
 
-var a = "hello";
+string a = "hello";
 var b = "world";
 int x = 123;
 

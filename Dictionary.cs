@@ -18,12 +18,14 @@ System.Console.WriteLine(personAges["John"]); // Outputs: 31
 personAges.Remove("Alice");
 
 // Check if a key exists
-if (personAges.ContainsKey("Bob")) {
-	System.Console.WriteLine("Bob is in the dictionary");
+if (personAges.ContainsKey("Bob"))
+{
+    System.Console.WriteLine("Bob is in the dictionary");
 }
 
 // Iterate over the dictionary
-foreach (var pair in personAges) {
-	System.Console.WriteLine($"Name: {pair.Key}, Age: {pair.Value}");
+foreach (var pair in personAges)
+{
+    System.Console.WriteLine($"Name: {pair.Key}, Age: {pair.Value}");
 }
 
