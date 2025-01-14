@@ -1,2 +1,4 @@
 ﻿
-gci *.exe -File | Remove-Item
+gci bin\*.exe -File | ri
+
+
